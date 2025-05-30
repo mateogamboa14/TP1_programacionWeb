@@ -23,6 +23,7 @@
     padding: 10px;
     border-radius: 100px;
 }
+
 a:hover {
-  color: red;
+    color: red;
 }
