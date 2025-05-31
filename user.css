@@ -2,12 +2,27 @@
     padding-left: 15px;
 }
 
-.User {
-    padding-left: 795px;
-    padding-top: 150px;
+body {
+    background-image: url('https://globalplay.ar/wp-content/uploads/2024/05/Minecraft.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    a {
+        text-decoration: none;
+    }
+
 }
 
-.User_1 {
-    padding-left: px;
-    padding-top: px;
+.tabla_user {
+    background-color: rgba(0, 0, 1, 0.606);
+    border-radius: 30px;
+    border-spacing: 30px;
+    text-decoration-color: rgb(87, 150, 206);
+}
+
+.User {
+    justify-items: center;
+    text-align: center;
+
 }
