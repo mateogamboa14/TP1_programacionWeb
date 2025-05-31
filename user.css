@@ -7,22 +7,21 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
-
-    a {
-        text-decoration: none;
-    }
-
 }
 
 .tabla_user {
-    background-color: rgba(0, 0, 1, 0.606);
+    background-color: rgba(0, 0, 0, 0.737);
     border-radius: 30px;
     border-spacing: 30px;
-    text-decoration-color: rgb(87, 150, 206);
+
 }
 
 .User {
     justify-items: center;
     text-align: center;
 
+}
+
+a:hover {
+    color: rgb(60, 60, 201);
 }
