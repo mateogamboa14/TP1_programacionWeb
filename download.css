@@ -1,0 +1,13 @@
+.download {
+  padding-left: 700px;
+  padding-top: 400px;
+}
+.tabla_download {
+    background-color: rgba(0, 0, 0, 0.737);
+    border-radius: 30px;
+    border-spacing: 30px;
+
+}
+a:hover {
+  color: red;
+}
