@@ -1,0 +1,38 @@
+body {
+    background-image: url('https://i.redd.it/hey-i-just-realised-that-minecraft-dropped-wallpapers-for-v0-af632nce2dud1.jpg?width=3840&format=pjpg&auto=webp&s=102770acfd3d1534ba97f09cfcaab822e6485b9e');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.logo_reg {
+    width: 80px;
+    height: 80px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.fondo_reg {
+    justify-items: center;
+    text-align: center;
+}
+
+.reg {
+    background-color: rgba(0, 0, 0, 0.670);
+    border-radius: 50px;
+    border-spacing: 25px;
+}
+
+.posend {
+    justify-items: right;
+}
+
+.send {
+    background-color: rgba(0, 255, 255, 0.54);
+    border-spacing: 10px;
+    border-radius: 20px;
+}
+
+a:hover {
+    color: red;
+}

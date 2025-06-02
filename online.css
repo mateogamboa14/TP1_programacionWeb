@@ -1,0 +1,28 @@
+body {
+    background-image: url('https://img.freepik.com/premium-photo/minecraft-wallpaper_1188452-5574.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: beige
+}
+
+.logo_online {
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 80px;
+    height: 80px;
+}
+
+.fondo_juego {
+    justify-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.685);
+    border-radius: 100px;
+    border-spacing: 500px;
+}
+
+.juego {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+}

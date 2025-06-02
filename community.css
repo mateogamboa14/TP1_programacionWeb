@@ -1,0 +1,62 @@
+body {
+    text-decoration: none;
+}
+
+.logo_comm {
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 80px;
+    height: 80px;
+}
+
+.busqueda {
+    justify-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+.search_input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.grilla {
+    padding-top: 30px;
+}
+
+.header_online {
+    text-align: center;
+}
+
+.header_message {
+    text-align: center;
+}
+
+.header_news {
+    text-align: center;
+}
+
+.online {
+    justify-content: center;
+    display: flex;
+    width: 20%;
+}
+
+.menssage {
+    justify-content: center;
+    display: flex;
+    width: 40%;
+}
+
+.news {
+    justify-content: center;
+    display: flex;
+    width: 40%;
+}

@@ -1,0 +1,25 @@
+body {
+    background-image: url('https://thumbs.dreamstime.com/b/paisaje-de-bosque-retorcido-que-se-asemeja-un-minero-ai-generativo-arbolado-minecraft-fondo-dise%C3%B1o-para-instagram-facebook-329315903.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure
+}
+
+.logo_send_re_pw {
+    padding-left: 15px;
+    padding-top: 15px;
+    width: 80px;
+    height: 80px;
+}
+
+.fondo_mensaje {
+    padding-top: 100px;
+    justify-items: center;
+    text-align: center;
+}
+
+.mensaje {
+    background-color: rgba(0, 0, 0, 0.665);
+    border-radius: 30px;
+    border-spacing: 30px;
+}

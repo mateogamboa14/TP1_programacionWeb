@@ -1,13 +1,44 @@
-.download {
-  padding-left: 700px;
-  padding-top: 400px;
+body {
+  background-image: url('https://i.pinimg.com/736x/cb/d3/41/cbd34142d5cc761babe03d573d366fc6.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+.logo_down {
+  padding-top: 5px;
+  padding-left: 15px;
+  width: 80px;
+  height: 80px;
+}
+
+h1 {
+  color: rgb(201, 196, 196);
+  text-decoration: none;
+}
+
+h3 {
+  color: rgb(201, 196, 196);
+  text-decoration: none;
+}
+
+a {
+  color: rgb(201, 196, 196);
+  text-decoration: none;
+}
+
+.download {
+  justify-items: center;
+  padding-top: 150px;
+}
+
 .tabla_download {
-    background-color: rgba(0, 0, 0, 0.737);
-    border-radius: 30px;
-    border-spacing: 30px;
+  justify-items: center;
+  background-color: rgba(0, 0, 0, 0.737);
+  border-radius: 30px;
+  border-spacing: 30px;
 
 }
+
 a:hover {
   color: red;
 }

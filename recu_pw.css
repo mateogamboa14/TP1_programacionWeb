@@ -1,0 +1,42 @@
+body {
+    background-image: url('https://wallpapers.com/images/hd/minecraft-background-6m3v50tfdxd1ky1j.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.header {
+    padding-top: 15px;
+    padding-left: 15px;
+
+}
+
+.Logo_re_pw {
+    width: 80px;
+    height: 80px;
+}
+
+.fondo_aviso {
+    justify-items: center;
+    text-align: center;
+}
+
+.aviso {
+    background-color: rgba(0, 0, 0, 0.632);
+    border-radius: 100px;
+    border-spacing: 30px;
+}
+
+.posend {
+    justify-items: right;
+}
+
+.send {
+    background-color: rgba(0, 255, 255, 0.54);
+    border-spacing: 10px;
+    border-radius: 20px;
+}
+
+a:hover {
+    color: red;
+}

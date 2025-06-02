@@ -1,8 +1,8 @@
 .header1 {
     display: flex;
     justify-content: space-between;
-    width: 1830px;
-    padding-top: 20px;
+    width: 1500px;
+    padding-top: 10px;
     padding-left: 15px;
 }
 
