@@ -1,17 +1,20 @@
 a:hover {
   color: red;
 }
+
+.wikicraft {
+  justify-items: center;
+  padding-top: 300px;
+}
+
 .wiki {
-  padding-left: 800px;
+  justify-items: center;
   padding-top: 10px;
 }
-.wikicraft {
-  padding-left: 800px;
-  padding-top: 400px;
-}
+
 .tabla_wiki {
-    background-color: rgba(0, 0, 0, 0.737);
-    border-radius: 30px;
-    border-spacing: 30px;
+  background-color: rgba(0, 0, 0, 0.737);
+  border-radius: 30px;
+  border-spacing: 25px;
 
 }
