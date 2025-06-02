@@ -1,4 +1,5 @@
 body {
+
     text-decoration: none;
 }
 
@@ -22,7 +23,7 @@ body {
 .search_input {
     flex-grow: 1;
     padding: 5px;
-    border: 1px solid #000000;
+    border: 1px solid #c3b5b5;
     border-radius: 20px;
     font-size: 20px;
 }
@@ -39,23 +40,42 @@ body {
     text-align: center;
 }
 
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSixJiYS3_gfN79gN9IoMvVQlNntDiu00ScA&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: beige
+}
+
 .header_news {
     text-align: center;
 }
 
 .online {
+    background-color: rgba(0, 0, 0, 0.606);
+    border-radius: 20px;
+    border-spacing: 1px;
+    border-style: groove;
     justify-content: center;
     display: flex;
     width: 20%;
 }
 
 .menssage {
+    background-color: rgba(0, 0, 0, 0.606);
+    border-radius: 20px;
+    border-spacing: 1px;
+    border-style: groove;
     justify-content: center;
     display: flex;
     width: 40%;
 }
 
 .news {
+    background-color: rgba(0, 0, 0, 0.606);
+    border-radius: 20px;
+    border-spacing: 1px;
+    border-style: groove;
     justify-content: center;
     display: flex;
     width: 40%;
