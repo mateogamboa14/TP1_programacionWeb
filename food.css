@@ -4,11 +4,12 @@
 }
 
 .titulo {
-    padding-left: 700px;
+    text-decoration: underline;
+    justify-items: center;
 }
 
 .food {
-    padding-left: 390px;
+    justify-items: center;
 }
 
 .logo_comida {

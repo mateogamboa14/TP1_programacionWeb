@@ -3,7 +3,8 @@
 }
 
 .titulo {
-    padding-left: 400px;
+    text-decoration: underline;
+    justify-items: center;
 }
 
 .contenedor {
@@ -12,7 +13,7 @@
 }
 
 .logo_aldeanos {
-    padding-left: 10px;
+    justify-items: center;
     padding-top: 5px;
     width: 80px;
     height: 80px;

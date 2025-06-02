@@ -9,11 +9,12 @@
 }
 
 .enchant {
-    padding-left: 100px;
+    justify-items: center;
 }
 
 .titulo {
-    padding-left: 600px;
+    text-decoration: underline;
+    justify-items: center;
 }
 
 .contenedor {

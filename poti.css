@@ -3,11 +3,12 @@
 }
 
 .imagen {
-    padding-left: 690px;
+    padding-left: 490px;
 }
 
 .titulo {
-    padding-left: 715px;
+    text-decoration: underline;
+    justify-items: center;
 }
 
 .logo_poti {
