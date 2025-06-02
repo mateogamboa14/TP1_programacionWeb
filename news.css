@@ -1,0 +1,12 @@
+body {
+    background-image: url('https://staticg.sportskeeda.com/editor/2025/04/ecf0d-17441333504737-1920.jpg?w=2040');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo_news {
+    padding-top: 5px;
+    padding-left: 15px;
+    height: 80px;
+    width: 80px;
+}

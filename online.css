@@ -17,10 +17,11 @@ body {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.685);
     border-radius: 100px;
-    border-spacing: 500px;
+    border-style: groove;
 }
 
 .juego {
+    border-spacing: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
     justify-content: center;
