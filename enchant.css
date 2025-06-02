@@ -7,13 +7,23 @@
     width: 150px;
     padding-left: 40px;
 }
+
 .enchant {
     padding-left: 100px;
 }
+
 .titulo {
     padding-left: 600px;
 }
+
 .contenedor {
-    width:400px;
+    width: 400px;
     margin: 0 auto;
+}
+
+.logo_encha {
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 80px;
+    height: 80px;
 }

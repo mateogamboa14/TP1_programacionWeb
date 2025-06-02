@@ -1,9 +1,18 @@
-.poti{
+.poti {
     display: flex;
 }
-.imagen{
+
+.imagen {
     padding-left: 690px;
 }
+
 .titulo {
     padding-left: 715px;
+}
+
+.logo_poti {
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 80px;
+    height: 80px;
 }
