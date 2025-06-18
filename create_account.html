@@ -41,7 +41,7 @@
                             <h3>
                                 Nombre
                             </h3>
-                            <input type="name" id="name" placeholder="" require minleghh="2" maxlength="20">
+                            <input type="name" id="nombre" placeholder="" require minleghh="2" maxlength="20">
                         </td>
                     </tr>
                     <tr>
@@ -49,7 +49,7 @@
                             <h3>
                                 Apellido
                             </h3>
-                            <input type="surname" id="surname" placeholder="" request minlength="20" maxlength="2">
+                            <input type="surname" id="surname" placeholder="" request minlength="2" maxlength="20">
                         </td>
                     </tr>
                     <tr>
@@ -82,6 +82,7 @@
                                 Confirma la contraseña
                             </h3>
                             <input type="pw_c" id="pw_c" placeholder="" request maxlength="20" minlegth="8">
+                            <h3><button onclick="GuardarDatos()">Guardar</button></h3>
                         </td>
                     </tr>
                     <tr>
@@ -102,5 +103,22 @@
                 </tbody>
             </table>
         </div>
+        <script>
+            function GuardarDatos() {
+              let mail = document.getElementById("mail");
+              let contraseña = document.getElementById("pw");
+              let nickname = document.getElementById("nickname");
+              let nombre = document.getElementById("nombre");
+              let apellido = document.getElementById("surname");
+              let usuario = {
+                nombre:nombre.value,
+                apellido:surname.value,
+                nickname:nickname.value,
+                correo: mail.value,
+                contraseña: contraseña.value,	
+              };
+              console.log(usuario);
+            }
+          </script>
     </body>
 </html>

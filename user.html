@@ -3,6 +3,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="user.css">
+    <script src="user.js"></script>
     <title>User</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,7 +44,7 @@
                     <h2>
                         Dirección de correo electrónico
                     </h2>
-                    <input  type="mail" id="mail" name="mail" placeholder="" required minlength="8" maxlength="40">
+                    <input  type="text" id="mail" name="mail" placeholder="correo electronico" required minlength="8" maxlength="40">
                 </td>
             </tr>
             <tr>
@@ -51,7 +52,7 @@
                     <h3>
                         Contraseña
                     </h3>
-                    <input type="pw" id="contraseña" name="contraseña" placeholder="" required minlength="8" maxlength="25">
+                    <input type="text" id="contraseña" name="contraseña" placeholder="contraseña" required minlength="8" maxlength="25">
                 </td>
             </tr>
             <tr>
@@ -65,5 +66,9 @@
             </tr>
         </table>
     </div>
+    ><script>
+              let mail = document.getElementById("mail");
+              let contraseña = document.getElementById("contraseña");
+    </script>
 </body>
 </html>

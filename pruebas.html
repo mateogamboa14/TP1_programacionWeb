@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="pruebas.js"></script>
+</head>
+<body>
+    <input type="text" id="mail" placeholder="correo electrinico">
+    <input type="text" id="contraseña" placeholder="contraseña">
+    <button onclick="GuardarDatos()">Guardar</button>
+    <p id="mensaje"></p>
+    <script>
+      function GuardarDatos() {
+        let mail = document.getElementById("mail");
+        let contraseña = document.getElementById("contraseña");
+        let usuario = {
+          correo: mail.value,
+          contraseña: contraseña.value,	
+        };
+      
+        let parrafo = document.getElementById("mensaje");
+        parrafo.innerHTML = "Correo guardado" + usuario.mail;
+        console.log(usuario);
+      }
+    </script>
+</body>
+</html>
