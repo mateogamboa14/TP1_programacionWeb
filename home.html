@@ -19,11 +19,11 @@
     }
   </style>
 </head>
-<body>
+<body>  
     <h1>
         <div class="header1">   
             <a href="home.html" target="_blank">
-                <img src="https://i.pinimg.com/736x/c5/20/50/c52050212cfb15d552562e5b3684258f.jpg" width="700px" height="80px" ></a>
+                <img src="https://i.pinimg.com/736x/c5/20/50/c52050212cfb15d552562e5b3684258f.jpg" width="80" height="80" ></a>
                 <a href="user.html" target="_blank">
                     <img src="https://cdn131.picsart.com/356316206007211.png?to=crop&type=webp&r=1456x1456&q=85" 
                     alt="Logo user" width="80" height="80"></a>
@@ -51,8 +51,10 @@
           <img id="mob-img" src="" alt="Mobmisterioso">
         <div class="options" id="options-container"></div>
         <p id="result"></p>
-        <button onclick="nextMob()">Siguiente</button>
+        <button onclick="nextMob()" id="next-button" disable>Siguiente</button>
         </div>
+        <h2 id="score">Puntaje: 0</h2>
+        <img id="mob-img" src="" alt="Mob misterioso">
         <script src="home.js"></script>
 </body>
 </html>
