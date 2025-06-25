@@ -1,27 +1,115 @@
-a:hover {
-  color: red;
+body {
+  background-color: rgb(137, 100, 61);
 }
 
-.wikicraft {
-  justify-items: center;
-  padding-top: 165px;
+a {
+  text-decoration: none;
+  color: black
 }
 
-.wiki {
-  justify-items: center;
-  padding-top: 10px;
+.header {
+  padding-top: 15px;
+  padding-left: 15px;
 }
 
-.tabla_wiki {
-  background-color: rgba(0, 0, 0, 0.737);
-  border-radius: 30px;
-  border-spacing: 25px;
-
+.tableta0 {
+  justify-items: right;
 }
 
-.logo_wiki {
-  padding-left: 10px;
-  padding-top: 5px;
-  width: 80px;
-  height: 80px;
+.tableta1 {
+  justify-items: left;
+}
+
+.Tgeneral {
+  padding-top: 7%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.f0 {
+  background-image: url("https://i.pinimg.com/736x/3e/25/e8/3e25e8ef0194063a4b39cb2c1fabd1d1.jpg");
+  background-size: cover;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  padding-top: 2%;
+  margin-bottom: 30px;
+  transition: transform 1s ease;
+}
+
+.f0:hover {
+  transform: scale(1.2);
+}
+
+.f1 {
+  background-image: url("https://i.pinimg.com/736x/3e/25/e8/3e25e8ef0194063a4b39cb2c1fabd1d1.jpg");
+  background-size: cover;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  padding-top: 2%;
+  margin-bottom: 30px;
+  transition: transform 1s ease;
+}
+
+.f1:hover {
+  transform: scale(1.2);
+}
+
+.f2 {
+  background-image: url("https://i.pinimg.com/736x/3e/25/e8/3e25e8ef0194063a4b39cb2c1fabd1d1.jpg");
+  background-size: cover;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  padding-top: 2%;
+  transition: transform 1s ease;
+}
+
+.f2:hover {
+  transform: scale(1.2);
+}
+
+.f3 {
+  background-image: url("https://i.pinimg.com/736x/3e/25/e8/3e25e8ef0194063a4b39cb2c1fabd1d1.jpg");
+  background-size: cover;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  padding-top: 2%;
+  margin-bottom: 30px;
+  transition: transform 1s ease;
+}
+
+.f3:hover {
+  transform: scale(1.2);
+}
+
+.f4 {
+  background-image: url("https://i.pinimg.com/736x/3e/25/e8/3e25e8ef0194063a4b39cb2c1fabd1d1.jpg");
+  background-size: cover;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  padding-top: 2%;
+  margin-bottom: 30px;
+  transition: transform 1s ease;
+}
+
+.f4:hover {
+  transform: scale(1.2);
+}
+
+.f5 {
+  background-image: url("https://i.pinimg.com/736x/3e/25/e8/3e25e8ef0194063a4b39cb2c1fabd1d1.jpg");
+  background-size: cover;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  padding-top: 2%;
+  transition: transform 1s ease;
+}
+
+.f5:hover {
+  transform: scale(1.2);
 }

@@ -1,4 +1,8 @@
+body{
+    text-decoration-color: antiquewhite;
+}
 .aldeanos {
+    text-decoration-color: antiquewhite; 
     justify-content: center;
 }
 
@@ -8,6 +12,7 @@
 }
 
 .contenedor {
+    text-decoration-color: antiquewhite; 
     width: 400px;
     margin: 0 auto;
 }
