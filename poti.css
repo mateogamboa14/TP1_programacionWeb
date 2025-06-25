@@ -1,12 +1,47 @@
-.poti {
+.pociones{  
     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    
 }
+.Intro{
+    text-align: center;
+}
+.texto{
+    padding-right:140px;
+}
+.formas{
+    justify-content: center;
 
+}
+.titulo0{
+    text-align: center;
+    text-decoration: underline;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    width: 249px;
+}
+td,tr{
+    display: flex;
+    border:1px solid black;
+    border-spacing:10px;
+}
+.fuerza{
+    max-width: 10%;
+}
+.velocidad{
+    width: 100px;
+}
 .imagen {
     padding-left: 490px;
 }
 
 .titulo {
+    padding-top: 100px;
     text-decoration: underline;
     justify-items: center;
 }
