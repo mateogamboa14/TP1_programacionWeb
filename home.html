@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>  
+<html lang="es">  
 <head>
     <link rel="stylesheet" type="text/css" href="home.css">
     <title>GMSTUDIOS</title>
@@ -46,8 +46,13 @@
             </table>
         </div>
     </h2>
-    <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/hT7FPimiytw?si=w-dDKy1tvsKKqs8K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
+        <div class="game-container">
+          <h1>¿Que mob es?</h1>
+          <img id="mob-img" src="" alt="Mobmisterioso">
+        <div class="options" id="options-container"></div>
+        <p id="result"></p>
+        <button onclick="nextMob()">Siguiente</button>
+        </div>
+        <script src="home.js"></script>
 </body>
 </html>
