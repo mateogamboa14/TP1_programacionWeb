@@ -26,7 +26,7 @@ const mobs = [
     {
         name: "Césped",
         shadowImg: "https://i.pinimg.com/736x/69/70/74/697074df9521df5c92395e09031f8256.jpg",
-        normalImg: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c0/Grass_Block_JE3.png/revision/latest?cb=20200830142745",
+        normalImg: "https://minecraft.wiki/images/Grass_Block_JE7_BE6.png?424c1",
         options: ["Slime", "Magma Cube", "Cabeza de Esqueleto", "Césped"]
     },
   ];
@@ -48,7 +48,6 @@ const mobs = [
     nextBtn.disabled = true;
     hasAnswered = false;
   
-    // Mostrar opciones
     mob.options.forEach(option => {
       const btn = document.createElement("button");
       btn.textContent = option;
@@ -69,7 +68,6 @@ const mobs = [
     const nextBtn = document.getElementById("next-button");
   
     if (selected === mob.name) {
-      // ✅ Correcto
       result.textContent = "¡Correcto!";
       result.style.color = "lime";
       img.src = mob.normalImg;
@@ -77,19 +75,16 @@ const mobs = [
       nextBtn.disabled = false;
     } else {
       result.innerHTML = `<span style="font-size: 40px; color: red;">✖</span> Incorrecto. Se reinicia.`;
-      img.src = ""; // Vacía la imagen
+      img.src = "https://cdn-icons-png.flaticon.com/512/1810/1810747.png";
       score = 0;
       setTimeout(() => {
         currentMob = 0;
         loadMob();
-      }, 2000); // espera 2 segundos y reinicia
+      }, 2000);
     }
-  
-    // Desactiva todas las opciones
     document.querySelectorAll("#options-container button").forEach(btn => {
       btn.disabled = true;
     });
-  
     updateScore();
   }
   
@@ -97,7 +92,6 @@ const mobs = [
     currentMob = (currentMob + 1) % mobs.length;
     loadMob();
   }
-  
   function updateScore() {
     document.getElementById("score").textContent = `Puntaje: ${score}`;
   }
