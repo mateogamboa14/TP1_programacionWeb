@@ -1,4 +1,5 @@
 .pociones{  
+    padding-top: 120px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -9,11 +10,12 @@
     text-align: center;
 }
 .texto{
-    padding-right:140px;
+    text-align: left;
+    padding-left:612px;
 }
 .formas{
-    justify-content: center;
-
+    justify-items: center;
+    text-align: center;
 }
 .titulo0{
     text-align: center;
@@ -21,8 +23,10 @@
 }
 table{
     border-collapse: collapse;
+    text-align: center;
 }
 td{
+    justify-content: center;
     width: 249px;
 }
 td,tr{
