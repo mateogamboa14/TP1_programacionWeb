@@ -16,7 +16,8 @@
               <td>
                 <div class="f0">
                   <h1>
-                    <a href="poti.html">POCIONES</a>
+                    <buttom id="boton"><a href="poti.html">POCIONES</a></buttom>
+                    <audio id="cofre" src="C:\Users\Admin\Downloads\Cofre_abriendose.mp3"></audio>
                   </h1>
                 </div>
               </td>
@@ -24,7 +25,8 @@
               <td>
                 <div class="f1">
                   <h1>
-                    <a href="food.html">ALIMENTOS</a>
+                    <a href="food.html">ALIMENTOS</a><buttom id="boton"></buttom>
+                    <audio id="cofre" src="C:\Users\Admin\Downloads\Cofre_abriendose.mp3"></audio>
                   </h1>
                 </div>
               </td>
@@ -33,7 +35,8 @@
               <td>
                 <div class="f2">
                   <h1>
-                    <a href="enchant.html">HERRAMIENTAS</a>
+                    <a href="enchant.html">HERRAMIENTAS</a><buttom id="boton"></buttom>
+                    <audio id="cofre" src="C:\Users\Admin\Downloads\Cofre_abriendose.mp3"></audio>
                   </h1>
                 </div>
               </td>
@@ -48,7 +51,8 @@
               <td>
                 <div class="f3">
                   <h1>
-                    <a href="aldeanos.html">ALDEANOS</a>
+                    <buttom id="boton"><a href="aldeanos.html">ALDEANOS</a></buttom>
+                    <audio id="cofre" src="C:\Users\Admin\Downloads\Cofre_abriendose.mp3"></audio>
                   </h1>
                 </div>
               </td>
@@ -57,7 +61,8 @@
               <td>
                 <div class="f4">
                   <h1>
-                    <a href="bloques.html">BLOQUES PRINCIPALES</a>
+                    <buttom id="boton"><a href="bloques.html">BLOQUES PRINCIPALES</a></buttom>
+                    <audio id="cofre" src="C:\Users\Admin\Downloads\Cofre_abriendose.mp3"></audio>
                   </h1>
                 </div>
               </td>
@@ -66,7 +71,8 @@
               <td>
                 <div class="f5">
                   <h1>
-                    <a href="animales.html">ANIMALES</a>
+                    <buttom id="boton"><a href="animales.html">ANIMALES</a></buttom>
+                    <audio id="cofre" src="C:\Users\Admin\Downloads\Cofre_abriendose.mp3"></audio>
                   </h1>
                 </div>
               </td>
@@ -75,5 +81,11 @@
         </table>
       </div>
     </div>
+    <script>
+      const boton=document.getElementById("boton");
+      boton.addEventListener("click",function(){
+       cofre.play();
+      });
+    </script>
   </body>
 </html>
